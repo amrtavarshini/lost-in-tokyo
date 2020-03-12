@@ -17,7 +17,7 @@ const Intro = () =>
 const NavItem = ({ className, href, children, logo }) => (
   <li className={`mh2-ns f6 f4-l tc ${className}`}>
     <a className="white" href={href}>
-      {logo ? <img src="/images/logo.svg" className="db center" /> : children}
+      {logo ? <img src="/lost-in-tokyo/images/logo.svg" className="db center" /> : children}
 
     </a>
   </li>
@@ -89,7 +89,7 @@ class Attraction extends React.Component {
       >
         <div className="relative">
           <Overlay {...this.props} {...this.state} />
-          <img src={`/images/${image}`} className="db" />
+          <img src={`/lost-in-tokyo/images/${image}`} className="db" />
         </div>
       </div>
     )
