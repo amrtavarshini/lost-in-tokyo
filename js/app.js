@@ -89,7 +89,7 @@ class Attraction extends React.Component {
       >
         <div className="relative">
           <Overlay {...this.props} {...this.state} />
-          <img src={`./images/${image}`} className="db" />
+          <img src={`../images/${image}`} className="db" />
         </div>
       </div>
     )
